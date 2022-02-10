@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+
+<style>
+	.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+}
+div 
+   {
+      align: center;
+      margin: auto;
+      width: 70%
+  }
+		body{
+			background-image: url(img/bg.png);
+		}
+		h1 {
+		text-align: center;
+		font-family: charlotte;
+		color: #44546A;
+		font-size: 80px;
+	}
+	h2 {
+		text-align: center;
+		font-family: charlotte;
+		color: #F89FA8;
+		font-size: 50px;
+	}
+	h3 {
+		font-family: charlotte;
+	}
+	p {
+		text-align: center;
+		font-family: Gaegu;
+		color: #44546A;
+		font-size: 20px;
+	}
+	hr {
+		height:5px;
+  		border-width:0;
+ 	 	background-color:#44546A;
+	}
+	.topnav {
+  		background-color: #FBCFAA;
+  		overflow: hidden;
+	}
+	.topnav a {
+		font-family: Gaegu;
+  		float: left;
+  		color: #44546A;
+  		text-align: center;
+ 		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 16px;
+	}
+	.topnav a:hover {
+  		background-color: whitesmoke;
+  		color: #F89FA8;
+  	}
+	.topnav a.active {
+  		background-color: whitesmoke;
+ 		color: #F89FA8;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #FEF1EE;
+  color: #FBCFAA;
+  font-size: 16px;
+  font-family: gaegu;
+  padding: 16px 32px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Welcome to ChocoMunch</h1>
+<div align="center">
+<img src="img/logo.jpg" width="300px" height="300px">
+</div>
+<p>Hi there! Are you a sweet lover? Get to know ChocoMunch! Best selling chocojar in Malaysia.</p>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="ourproducts.html">Our Products</a>
+  <a href="ourstory.html">Our Story</a>
+  <a href="members.html">Members</a>
+  <a class="active" href="contact.html">Contact Us</a>
+  <a href="about.html">About</a>
+</div>
+ <h3 style="font-size: 45px;"><marquee behavior="scroll" direction="right" style="color:#FBCFAA;">More Choco, More Joy!</marquee></h3>
+
+<div align="center">
+	<table style="width:50%" bgcolor="#F2C7D5">
+
+	    <tr>  
+    <hr>
+    <h2>Contact Us</h2>
+    <hr>
+    <p>Any inquiries you can contact us!</p>
+
+<div class="container">
+  <img src="img/anis.jpg" alt="Anis" class="center" style="width:90%" onclick="document.location='http://wasap.my/60194819122'"target="_blank">
+  <div class="middle">
+    <div class="text">Noor Sarahanis</div>
+  </div></div><div class="container">
+  <img src="img/miera.jpg" alt="Miera" class="center" style="width:90%" onclick="document.location='http://wasap.my/601119234010'"target="_blank">
+  <div class="middle">
+    <div class="text">Amiera</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="img/fatin.jpg" alt="Fatin" class="center" style="width:90%" onclick="document.location='http://wasap.my/60149030424'"target="_blank">
+  <div class="middle">
+    <div class="text">Fatin Nur 'Aqilah</div>
+  </div></div><div class="container">
+  <img src="img/mirah.jpg" alt="Mirah" class="center" style="width:90%" onclick="document.location='http://wasap.my/601129224630'"target="_blank">
+  <div class="middle">
+    <div class="text">Tuan Nur Amirah Safiah</div>
+  </div>
+</div>
+</div>
+
+<p style="text-align:center; background-color: whitesmoke;font-size: 18px;font-family: gaegu;color: #44546A;">&copy IMD311 2022 ChocoMunch</p>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Products</title>
+
+<style>
+	.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+		body{
+			background-image: url(img/bg.png);
+		}
+		h1 {
+		text-align: center;
+		font-family: charlotte;
+		color: #44546A;
+		font-size: 80px;
+	}
+	h2 {
+		text-align: center;
+		font-family: charlotte;
+		color: #F89FA8;
+		font-size: 50px;
+	}
+	h3 {
+		font-family: charlotte;
+	}
+	p {
+		text-align: center;
+		font-family: Gaegu;
+		color: #44546A;
+		font-size: 20px;
+	}
+	hr {
+		height:5px;
+  		border-width:0;
+ 	 	background-color:#44546A;
+	}
+	.topnav {
+  		background-color: #FBCFAA;
+  		overflow: hidden;
+	}
+	.topnav a {
+		font-family: Gaegu;
+  		float: left;
+  		color: #44546A;
+  		text-align: center;
+ 		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 16px;
+	}
+	.topnav a:hover {
+  		background-color: whitesmoke;
+  		color: #F89FA8;
+	}
+	.topnav a.active {
+  		background-color: whitesmoke;
+ 		color: #F89FA8;
+	}
+	div 
+   {
+      align: center;
+      margin: auto;
+      width: 70%;
+   }
+   .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FBCFAA;
+  border: none;
+  color: #44546A;
+  text-align: center;
+  font-size: 20px;
+  font-family: gaegu;
+  padding: 15px;
+  width: 300px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Welcome to ChocoMunch</h1>
+<div align="center">
+<img src="img/logo.jpg" width="300px" height="300px">
+</div>
+<p>Hi there! Are you a sweet lover? Get to know ChocoMunch! Best selling chocojar in Malaysia.</p>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="ourproducts.html">Our Products</a>
+  <a href="ourstory.html">Our Story</a>
+  <a href="members.html">Members</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="about.html">About</a>
+</div>
+ <h3 style="font-size: 45px;"><marquee behavior="scroll" direction="right" style="color:#FBCFAA;">More Choco, More Joy!</marquee></h3>
+
+<div align="center">
+	<table style="width:50%" bgcolor="#F2C7D5">
+
+	    <tr>   
+		<br>
+    <hr>
+    <h2>Our Products</h2>
+    <hr>
+		<p>What are the toppings that we have on our ChocoMunch? Here are the toppings!</p>
+
+			<tr>
+			<br>
+			<img src="img/choco.jpg" height="300px" width="300px"><img src="img/corn.jpg" height="300px" width="300px">
+			<br>
+			<img src="img/cookies.jpg" height="300px" width="300px"><img src="img/cheese.jpg" height="300px" width="300px">
+			<br>
+			<img src="img/berries.jpg" height="300px" width="300px">
+		</tr>
+
+		</tr>
+
+</table>
+</div>
+<div align="center">
+	<button class="button" onclick="document.location='http://wasap.my/601119234010'"target="_blank" style="vertical-align:middle"><span>Order Now</span></button>
+</div>
+<p style="text-align:center; background-color: whitesmoke;font-size: 18px;font-family: gaegu;color: #44546A;">&copy IMD311 2022 ChocoMunch</p>
+</body>
+</html>
